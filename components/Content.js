@@ -76,12 +76,12 @@ function Content() {
         </section>
         <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-12">
           <div className="space-y-4">
-            <h2 className="text-lg font-bold sm:text-xl">Marketing</h2>
+            <h2 className="text-lg font-bold sm:text-xl">Components</h2>
             <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
               <a
-                title="Tailwind CSS Marketing Components - Announcements"
+                title="Tailwind CSS Components Components - Announcements"
                 className="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-lg before:border-2 before:border-dashed before:border-black"
-                href="/components/marketing/announcements"
+                href="/components/Components/announcements"
               >
                 <div className="rounded-lg border-2 border-black bg-white transition group-hover:-translate-x-2 group-hover:-translate-y-2">
                   <div className="p-6">
@@ -94,9 +94,9 @@ function Content() {
                 </div>
               </a>
               <a
-                title="Tailwind CSS Marketing Components - Banners"
+                title="Tailwind CSS Components Components - Banners"
                 className="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-lg before:border-2 before:border-dashed before:border-black"
-                href="/components/marketing/banners"
+                href="/components/Components/banners"
               >
                 <div className="rounded-lg border-2 border-black bg-white transition group-hover:-translate-x-2 group-hover:-translate-y-2">
                   <div className="p-6">
@@ -109,9 +109,9 @@ function Content() {
                 </div>
               </a>
               <a
-                title="Tailwind CSS Marketing Components - Blog Cards"
+                title="Tailwind CSS Components Components - Blog Cards"
                 className="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-lg before:border-2 before:border-dashed before:border-black"
-                href="/components/marketing/blog-cards"
+                href="/components/Components/blog-cards"
               >
                 <div className="rounded-lg border-2 border-black bg-white transition group-hover:-translate-x-2 group-hover:-translate-y-2">
                   <div className="p-6">
@@ -124,9 +124,9 @@ function Content() {
                 </div>
               </a>
               <a
-                title="Tailwind CSS Marketing Components - Buttons"
+                title="Tailwind CSS Components Components - Buttons"
                 className="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-lg before:border-2 before:border-dashed before:border-black"
-                href="/components/marketing/buttons"
+                href="/components/Components/buttons"
               >
                 <div className="rounded-lg border-2 border-black bg-white transition group-hover:-translate-x-2 group-hover:-translate-y-2">
                   <div className="p-6">
@@ -139,9 +139,9 @@ function Content() {
                 </div>
               </a>
               <a
-                title="Tailwind CSS Marketing Components - Cards"
+                title="Tailwind CSS Components Components - Cards"
                 className="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-lg before:border-2 before:border-dashed before:border-black"
-                href="/components/marketing/cards"
+                href="/components/Components/cards"
               >
                 <div className="rounded-lg border-2 border-black bg-white transition group-hover:-translate-x-2 group-hover:-translate-y-2">
                   <div className="p-6">
@@ -154,9 +154,9 @@ function Content() {
                 </div>
               </a>
               <a
-                title="Tailwind CSS Marketing Components - CTAs"
+                title="Tailwind CSS Components Components - CTAs"
                 className="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-lg before:border-2 before:border-dashed before:border-black"
-                href="/components/marketing/ctas"
+                href="/components/Components/ctas"
               >
                 <div className="rounded-lg border-2 border-black bg-white transition group-hover:-translate-x-2 group-hover:-translate-y-2">
                   <div className="p-6">
@@ -169,9 +169,9 @@ function Content() {
                 </div>
               </a>
               <a
-                title="Tailwind CSS Marketing Components - FAQs"
+                title="Tailwind CSS Components Components - FAQs"
                 className="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-lg before:border-2 before:border-dashed before:border-black"
-                href="/components/marketing/faqs"
+                href="/components/Components/faqs"
               >
                 <div className="rounded-lg border-2 border-black bg-white transition group-hover:-translate-x-2 group-hover:-translate-y-2">
                   <div className="p-6">
@@ -184,9 +184,9 @@ function Content() {
                 </div>
               </a>
               <a
-                title="Tailwind CSS Marketing Components - Footers"
+                title="Tailwind CSS Components Components - Footers"
                 className="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-lg before:border-2 before:border-dashed before:border-black"
-                href="/components/marketing/footers"
+                href="/components/Components/footers"
               >
                 <div className="rounded-lg border-2 border-black bg-white transition group-hover:-translate-x-2 group-hover:-translate-y-2">
                   <div className="p-6">
@@ -199,9 +199,9 @@ function Content() {
                 </div>
               </a>
               <a
-                title="Tailwind CSS Marketing Components - Forms"
+                title="Tailwind CSS Components Components - Forms"
                 className="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-lg before:border-2 before:border-dashed before:border-black"
-                href="/components/marketing/forms"
+                href="/components/Components/forms"
               >
                 <div className="rounded-lg border-2 border-black bg-white transition group-hover:-translate-x-2 group-hover:-translate-y-2">
                   <div className="p-6">
@@ -214,9 +214,9 @@ function Content() {
                 </div>
               </a>
               <a
-                title="Tailwind CSS Marketing Components - Navigation"
+                title="Tailwind CSS Components Components - Navigation"
                 className="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-lg before:border-2 before:border-dashed before:border-black"
-                href="/components/marketing/navigations"
+                href="/components/Components/navigations"
               >
                 <div className="rounded-lg border-2 border-black bg-white transition group-hover:-translate-x-2 group-hover:-translate-y-2">
                   <div className="p-6">
@@ -229,9 +229,9 @@ function Content() {
                 </div>
               </a>
               <a
-                title="Tailwind CSS Marketing Components - Popups"
+                title="Tailwind CSS Components Components - Popups"
                 className="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-lg before:border-2 before:border-dashed before:border-black"
-                href="/components/marketing/popups"
+                href="/components/Components/popups"
               >
                 <div className="rounded-lg border-2 border-black bg-white transition group-hover:-translate-x-2 group-hover:-translate-y-2">
                   <div className="p-6">
@@ -244,9 +244,9 @@ function Content() {
                 </div>
               </a>
               <a
-                title="Tailwind CSS Marketing Components - Sections"
+                title="Tailwind CSS Components Components - Sections"
                 className="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-lg before:border-2 before:border-dashed before:border-black"
-                href="/components/marketing/sections"
+                href="/components/Components/sections"
               >
                 <div className="rounded-lg border-2 border-black bg-white transition group-hover:-translate-x-2 group-hover:-translate-y-2">
                   <div className="p-6">
@@ -259,9 +259,9 @@ function Content() {
                 </div>
               </a>
               <a
-                title="Tailwind CSS Marketing Components - Stats"
+                title="Tailwind CSS Components Components - Stats"
                 className="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-lg before:border-2 before:border-dashed before:border-black"
-                href="/components/marketing/stats"
+                href="/components/Components/stats"
               >
                 <div className="rounded-lg border-2 border-black bg-white transition group-hover:-translate-x-2 group-hover:-translate-y-2">
                   <div className="p-6">
@@ -274,9 +274,9 @@ function Content() {
                 </div>
               </a>
               <a
-                title="Tailwind CSS Marketing Components - Tabs"
+                title="Tailwind CSS Components Components - Tabs"
                 className="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-lg before:border-2 before:border-dashed before:border-black"
-                href="/components/marketing/tabs"
+                href="/components/Components/tabs"
               >
                 <div className="rounded-lg border-2 border-black bg-white transition group-hover:-translate-x-2 group-hover:-translate-y-2">
                   <div className="p-6">
@@ -289,9 +289,9 @@ function Content() {
                 </div>
               </a>
               <a
-                title="Tailwind CSS Marketing Components - Testimonials"
+                title="Tailwind CSS Components Components - Testimonials"
                 className="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-lg before:border-2 before:border-dashed before:border-black"
-                href="/components/marketing/testimonials"
+                href="/components/Components/testimonials"
               >
                 <div className="rounded-lg border-2 border-black bg-white transition group-hover:-translate-x-2 group-hover:-translate-y-2">
                   <div className="p-6">
@@ -305,167 +305,7 @@ function Content() {
               </a>
             </div>
           </div>
-          <div className="space-y-4">
-            <h2 className="text-lg font-bold sm:text-xl">eCommerce</h2>
-            <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-              <a
-                title="Tailwind CSS eCommerce Components - Carts"
-                className="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-lg before:border-2 before:border-dashed before:border-black"
-                href="/components/ecommerce/carts"
-              >
-                <div className="rounded-lg border-2 border-black bg-white transition group-hover:-translate-x-2 group-hover:-translate-y-2">
-                  <div className="p-6">
-                    <span aria-hidden="true" role="img" className="text-xl">
-                      🛒
-                    </span>
-                    <p className="mt-4 text-lg font-medium">Carts</p>
-                    <p className="mt-1 text-xs">3 Components</p>
-                  </div>
-                </div>
-              </a>
-              <a
-                title="Tailwind CSS eCommerce Components - Checkouts"
-                className="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-lg before:border-2 before:border-dashed before:border-black"
-                href="/components/ecommerce/checkouts"
-              >
-                <div className="rounded-lg border-2 border-black bg-white transition group-hover:-translate-x-2 group-hover:-translate-y-2">
-                  <div className="p-6">
-                    <span aria-hidden="true" role="img" className="text-xl">
-                      🧾
-                    </span>
-                    <p className="mt-4 text-lg font-medium">Checkouts</p>
-                    <p className="mt-1 text-xs">1 Component</p>
-                  </div>
-                </div>
-              </a>
-              <a
-                title="Tailwind CSS eCommerce Components - Collection Cards"
-                className="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-lg before:border-2 before:border-dashed before:border-black"
-                href="/components/ecommerce/collection-cards"
-              >
-                <div className="rounded-lg border-2 border-black bg-white transition group-hover:-translate-x-2 group-hover:-translate-y-2">
-                  <div className="p-6">
-                    <span aria-hidden="true" role="img" className="text-xl">
-                      🙋&zwj;♀️
-                    </span>
-                    <p className="mt-4 text-lg font-medium">Collection Cards</p>
-                    <p className="mt-1 text-xs">4 Components</p>
-                  </div>
-                </div>
-              </a>
-              <a
-                title="Tailwind CSS eCommerce Components - Collection Filters"
-                className="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-lg before:border-2 before:border-dashed before:border-black"
-                href="/components/ecommerce/collection-filters"
-              >
-                <div className="rounded-lg border-2 border-black bg-white transition group-hover:-translate-x-2 group-hover:-translate-y-2">
-                  <div className="p-6">
-                    <span aria-hidden="true" role="img" className="text-xl">
-                      🎛️
-                    </span>
-                    <p className="mt-4 text-lg font-medium">
-                      Collection Filters
-                    </p>
-                    <p className="mt-1 text-xs">2 Components</p>
-                  </div>
-                </div>
-              </a>
-              <a
-                title="Tailwind CSS eCommerce Components - Featured Sections"
-                className="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-lg before:border-2 before:border-dashed before:border-black"
-                href="/components/ecommerce/featured-sections"
-              >
-                <div className="rounded-lg border-2 border-black bg-white transition group-hover:-translate-x-2 group-hover:-translate-y-2">
-                  <div className="p-6">
-                    <span aria-hidden="true" role="img" className="text-xl">
-                      🌟
-                    </span>
-                    <p className="mt-4 text-lg font-medium">
-                      Featured Sections
-                    </p>
-                    <p className="mt-1 text-xs">2 Components</p>
-                  </div>
-                </div>
-              </a>
-              <a
-                title="Tailwind CSS eCommerce Components - Product Cards"
-                className="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-lg before:border-2 before:border-dashed before:border-black"
-                href="/components/ecommerce/product-cards"
-              >
-                <div className="rounded-lg border-2 border-black bg-white transition group-hover:-translate-x-2 group-hover:-translate-y-2">
-                  <div className="p-6">
-                    <span aria-hidden="true" role="img" className="text-xl">
-                      🙋&zwj;♀️
-                    </span>
-                    <p className="mt-4 text-lg font-medium">Product Cards</p>
-                    <p className="mt-1 text-xs">6 Components</p>
-                  </div>
-                </div>
-              </a>
-              <a
-                title="Tailwind CSS eCommerce Components - Product Collections"
-                className="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-lg before:border-2 before:border-dashed before:border-black"
-                href="/components/ecommerce/product-collections"
-              >
-                <div className="rounded-lg border-2 border-black bg-white transition group-hover:-translate-x-2 group-hover:-translate-y-2">
-                  <div className="p-6">
-                    <span aria-hidden="true" role="img" className="text-xl">
-                      🛍
-                    </span>
-                    <p className="mt-4 text-lg font-medium">
-                      Product Collections
-                    </p>
-                    <p className="mt-1 text-xs">6 Components</p>
-                  </div>
-                </div>
-              </a>
-              <a
-                title="Tailwind CSS eCommerce Components - Products"
-                className="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-lg before:border-2 before:border-dashed before:border-black"
-                href="/components/ecommerce/products"
-              >
-                <div className="rounded-lg border-2 border-black bg-white transition group-hover:-translate-x-2 group-hover:-translate-y-2">
-                  <div className="p-6">
-                    <span aria-hidden="true" role="img" className="text-xl">
-                      🧸
-                    </span>
-                    <p className="mt-4 text-lg font-medium">Products</p>
-                    <p className="mt-1 text-xs">2 Components</p>
-                  </div>
-                </div>
-              </a>
-              <a
-                title="Tailwind CSS eCommerce Components - Quantity Inputs"
-                className="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-lg before:border-2 before:border-dashed before:border-black"
-                href="/components/ecommerce/quantity-inputs"
-              >
-                <div className="rounded-lg border-2 border-black bg-white transition group-hover:-translate-x-2 group-hover:-translate-y-2">
-                  <div className="p-6">
-                    <span aria-hidden="true" role="img" className="text-xl">
-                      ➕
-                    </span>
-                    <p className="mt-4 text-lg font-medium">Quantity Inputs</p>
-                    <p className="mt-1 text-xs">5 Components</p>
-                  </div>
-                </div>
-              </a>
-              <a
-                title="Tailwind CSS eCommerce Components - Reviews"
-                className="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-lg before:border-2 before:border-dashed before:border-black"
-                href="/components/ecommerce/reviews"
-              >
-                <div className="rounded-lg border-2 border-black bg-white transition group-hover:-translate-x-2 group-hover:-translate-y-2">
-                  <div className="p-6">
-                    <span aria-hidden="true" role="img" className="text-xl">
-                      ✨
-                    </span>
-                    <p className="mt-4 text-lg font-medium">Reviews</p>
-                    <p className="mt-1 text-xs">1 Component</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
+
           <div className="space-y-4">
             <h2 className="text-lg font-bold sm:text-xl">Application UI</h2>
             <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
