@@ -4,12 +4,12 @@ import { getAuth, GoogleAuthProvider, GithubAuthProvider } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAtid3dkCUljuPuwgnRhrTL2IRDM9c0wYE",
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_KEY,
   authDomain: "applibslist-26f94.firebaseapp.com",
-  projectId: "applibslist-26f94",
-  storageBucket: "applibslist-26f94.appspot.com",
+  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT,
+  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE,
   messagingSenderId: "199595668669",
-  appId: "1:199595668669:web:8f0d43f813f59098d833d4",
+  appId: process.env.NEXT_PUBLIC_FIREBASE_APPID,
   measurementId: "G-WZ51XVGZLG",
 };
 
