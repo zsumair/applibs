@@ -3,7 +3,7 @@ import Pagination from "./Pagination";
 import LibraryCard from "./LibraryCard";
 
 function Libraries({ libraryList, selectedCategory }) {
-  const [libsPerPage, setLibsPerPage] = useState(4);
+  const [libsPerPage, setLibsPerPage] = useState(12);
   //   console.log("library", libraryList);
   //   console.log("selectedCategory", selectedCategory);
 
