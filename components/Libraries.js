@@ -25,7 +25,7 @@ function Libraries({ libraryList, selectedCategory }) {
         ) : (
           <>
             <h3 className="text-xl">
-              Oops, now library added yet, why don't you add one{" "}
+              Oops, no library added yet, why don't you add one{" "}
               <Link className="underline" href="/submitlib">
                 here
               </Link>
