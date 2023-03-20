@@ -10,13 +10,18 @@ import Libraries from "./Libraries";
 
 function Content() {
   const [libraryList, setLibraryList] = useState([]);
+  const [newList, setNewList] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState("");
 
   function getCategory(item) {
+    setNewList(libraryList);
     setSelectedCategory(item);
-    // let list = libraryList.filter((value) => value.category.includes(item));
-    // console.log("list", list);
-    // getFilteredLibrariesList(list);
+    const newItem = libraryList.filter((newVal) => {
+      return newVal.category === item;
+    });
+    console.log("newitem", newItem);
+    // console.log("library", libraryList);
+    setNewList(newItem);
   }
 
   const librariesCollectionRef = collection(db, "libraries");
@@ -35,24 +40,21 @@ function Content() {
         ...doc.data(),
         id: doc.id,
       }));
-
-      // console.log(filteredData);
       setLibraryList(filteredData);
+      setNewList(filteredData);
     } catch (err) {
       console.log(err);
     }
   }
 
-  const getFilteredLibrariesList = () => {
-    return (
-      <Libraries
-        libraryList={libraryList}
-        selectedCategory={selectedCategory}
-      />
-    );
-  };
+  // const filterItem = (curcat) => {
+  //   const newItem = Data.filter((newVal) => {
+  //     return newVal.category === curcat;
+  //   });
+  //   setItem(newItem);
+  // };
 
-  // console.log(libraryList);
+  console.log("newlistagain", selectedCategory);
 
   return (
     <div>
@@ -62,13 +64,15 @@ function Content() {
             <h5 className="text-md font-bold text-gray-900 sm:text-4xl pb-4">
               Find Libraries for React
             </h5>
-            {/* <h2 className="mt-4 text-gray-700">Find Libraries for React</h2> */}
 
-            {/* <ul className="inline-flex md:flex flex-wrap mx-auto gap-2 p-4">
+            <ul className="inline-flex md:flex flex-wrap mx-auto gap-2 p-4">
               <>
                 <li className="pb-1">
                   <button
-                    onClick={(e) => getCategory("All")}
+                    onClick={() => {
+                      setNewList(libraryList);
+                      setSelectedCategory("");
+                    }}
                     className="btn btn-xs sm:btn-sm md:btn-sm lg:btn-sm btn-outline"
                   >
                     All
@@ -79,20 +83,21 @@ function Content() {
                     <button
                       onClick={(e) => getCategory(category.value)}
                       key={category.value}
-                      className="btn btn-xs sm:btn-sm md:btn-sm lg:btn-sm btn-outline"
+                      className={
+                        "btn btn-xs sm:btn-sm md:btn-sm lg:btn-sm btn-outline"
+                      }
                     >
                       {category.item}
                     </button>
                   </li>
                 ))}
               </>
-            </ul> */}
+            </ul>
           </div>
         </section>
         <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-12">
-          {/* {getFilteredLibrariesList()} */}
           <Libraries
-            libraryList={libraryList}
+            libraryList={newList}
             selectedCategory={selectedCategory}
           />
         </div>
