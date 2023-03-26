@@ -7,21 +7,25 @@ import LibraryCard from "./LibraryCard";
 import { useRouter } from "next/router";
 import Pagination from "./Pagination";
 import Libraries from "./Libraries";
+import Skeleton from "./Skeleton";
 
 function Content() {
   const [libraryList, setLibraryList] = useState([]);
   const [newList, setNewList] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
 
   function getCategory(item) {
+    setIsLoading(true);
     setNewList(libraryList);
     setSelectedCategory(item);
     const newItem = libraryList.filter((newVal) => {
       return newVal.category === item;
     });
-    console.log("newitem", newItem);
+    // console.log("newitem", newItem);
     // console.log("library", libraryList);
     setNewList(newItem);
+    setIsLoading(false);
   }
 
   const librariesCollectionRef = collection(db, "libraries");
@@ -31,6 +35,7 @@ function Content() {
   }, []);
 
   async function getLibrariesList() {
+    setIsLoading(true);
     try {
       const data = await getDocs(
         librariesCollectionRef,
@@ -42,8 +47,10 @@ function Content() {
       }));
       setLibraryList(filteredData);
       setNewList(filteredData);
+      setIsLoading(false);
     } catch (err) {
       console.log(err);
+      setIsLoading(false);
     }
   }
 
@@ -54,7 +61,7 @@ function Content() {
   //   setItem(newItem);
   // };
 
-  console.log("newlistagain", selectedCategory);
+  // console.log("newlistagain", selectedCategory);
 
   return (
     <div>
@@ -96,9 +103,15 @@ function Content() {
           </div>
         </section>
         <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-12">
+          {/* {isLoading && (
+            <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+              <Skeleton cards={8} />
+            </div>
+          )} */}
           <Libraries
             libraryList={newList}
             selectedCategory={selectedCategory}
+            isLoading={isLoading}
           />
         </div>
       </main>
