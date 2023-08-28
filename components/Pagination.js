@@ -12,7 +12,7 @@ const Pagination = ({ totalLibs, libsPerPage, setLibsPerPage }) => {
           onClick={() => handleLoadMore()}
           className="btn btn-outline btn-block"
         >
-          Load More
+          Load More...
         </button>
       )}
     </div>

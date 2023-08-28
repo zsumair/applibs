@@ -103,11 +103,6 @@ function Content() {
           </div>
         </section>
         <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-12">
-          {/* {isLoading && (
-            <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-              <Skeleton cards={8} />
-            </div>
-          )} */}
           <Libraries
             libraryList={newList}
             selectedCategory={selectedCategory}
